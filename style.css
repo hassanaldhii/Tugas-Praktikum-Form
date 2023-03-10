@@ -57,6 +57,12 @@ body{
     font-weight: 600;
     line-height: normal;
 }
+.stitle{
+    margin-top: 4px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
 .btitle{
     font-weight: 700;
     font-size: 30px;
@@ -110,7 +116,7 @@ input[type=text], select {
 
 .triplecont{
     width: 100%;
-    margin: 30px;
+    margin: 24px;
     margin-right: 0;
     display: flex;
     align-items: center;
@@ -120,9 +126,9 @@ input[type=text], select {
 
 .profile-card {
     cursor: pointer;
-    margin-inline-end: 20px;
+    margin-inline-end: 24px;
     margin-bottom: 0;
-    height: 365px;
+    height: 385px;
     top: 0;
     left: 0;
     background-color: #F5F5F5;
@@ -139,5 +145,19 @@ input[type=text], select {
 }
 
 .detailcont{
-    margin: 10px 16px;
+    padding: 10px 16px ;
+    box-sizing: border-box;
 }
+
+input[type='radio']:checked:after {
+        width: 13px;
+        height: 13px;
+        border-radius: 15px;
+        left: -1px;
+        position: relative;
+        background-color: orange;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid #0e3b55;
+    }
